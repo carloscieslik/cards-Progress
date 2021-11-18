@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Cards Progress</title>
+  </head>
+  <body>
+    <div class="container__images">
+
+      <div id="1" class="panel active on-panel" style="background-image: url('https://images.unsplash.com/photo-1464965911861-746a04b4bca6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80')">
+        <h3>Strawberry</h3>
+      </div>
+      <div id="2" class="panel on-panel" style="background-image: url('https://images.unsplash.com/photo-1606050627722-3646950540ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80')">
+        <h3>Banana</h3>
+      </div>
+      <div id="3" class="panel on-panel" style="background-image: url('https://images.unsplash.com/photo-1530176611600-d05a6387d07c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80')">
+        <h3>Cherry</h3>
+      </div>
+      <div id="4" class="panel on-panel" style="background-image: url('https://images.unsplash.com/photo-1591206369811-4eeb2f03bc95?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80')">
+        <h3>Orange</h3>
+      </div>
+      <div id="5" class="panel on-panel" style="background-image: url('https://images.unsplash.com/photo-1457296898342-cdd24585d095?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=80')">
+        <h3>Blueberries</h3>
+      </div>
+
+    </div>
+
+    <div class="container__progress">
+        <div class="circles-container">
+            <div class="line__progress" id="progress"></div>
+            <div class="circle active">1</div>
+            <div class="circle">2</div>
+            <div class="circle">3</div>
+            <div class="circle">4</div>
+            <div class="circle">5</div>
+        </div>
+
+        <button class="btn" id="prev" disabled>Prev</button>
+        <button class="btn" id="next">Next</button>
+    </div>
+
+    <script src="js/progress.js"></script>
+  </body>
+</html>
